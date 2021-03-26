@@ -25,8 +25,10 @@ namespace MyProject
             InitializeComponent();
             listBox1.Items.Add("   ID       Name             Price               Description       Data");
         }
+        //TODO:how about creating seperate class for Foods class
         class Foods
         {
+        //TODO:On first app load go set id to the last id in the db - maybe you can make a static method
             public int Id;
             public string FDName;
             public int FDPrice;
